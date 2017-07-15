@@ -28,8 +28,11 @@ This scrips will create the database 'authentication' with the following tables
 Configure the database access
 Access the database.php file in App/config and change de user and password.
 
+* if you don't see a vendor folder, access the project folder in the terminal and run (requirement: composer)
+- comporser dump-autoload
+
 To run the system 
-- access the Project Folder 
+- access the project folder 
 - run: php artisan serve
 
 For the first access use:
